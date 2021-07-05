@@ -1,0 +1,248 @@
+body{
+    background-color: burlywood;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.top-nav-bar{
+    height: 57px;
+    top: 0;
+    position: sticky;
+    background:black;
+    margin-bottom: 20px;
+    border-bottom: 3px solid brown !important;
+    z-index: 2px;
+}
+.logo
+{
+    height: 80px;
+    margin: 5px 10px;
+}
+.form-control{
+    margin-top: 9px !important;
+    margin-left:20px !important;
+    border: 1px solid orange !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius:20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    box-shadow: none;
+}
+.input-group-text{
+    background:orange !important;
+    border: 2px orange !important;
+    size: 1px !important;
+    margin: 8.5px 20px 3px 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius:0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+    
+}
+.search-box{
+    display: inline-flex !important;
+    width: 50%;
+}
+.logo{
+    text-decoration:none;
+    background-color: tomato;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.logo:hover{
+    background-color: turquoise;
+    color: purple;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0 .5s;
+
+}
+.fa-search-plus
+{
+    color: white !important;
+    width: 2px;
+    text-align: center;
+}
+.memu-bar{
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+.memu-bar ul{
+    display: inline-flex;
+    float: right;
+}
+.memu-bar ul li{
+    color: black;
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 35px;
+    background-color: coral;
+    cursor: pointer;
+}
+.memu-bar ul li{
+    text-decoration:none;
+    background-color: tomato;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.memu-bar ul li:hover{
+    background-color: turquoise;
+    color: purple;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0 .5s;
+
+}
+.fa-shopping-basket{
+    margin-right: 5px;
+    color: white;
+}
+.fa-sign-in{
+    margin-right: 5px;
+    color: white;
+}
+.fa-mobile{
+    margin-right: 5px;
+    color: white;
+}
+@media only screen and (max-width:980px)
+{
+    .top-nav-bar
+    {
+        height: 118px;
+       border-bottom: 0px;
+    }
+    .search-box
+    {
+        width: 100%;
+    }
+    .memu-bar
+    {
+        width: 100%;
+    }
+    .memu-bar ul{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .memu-bar ul li{
+        margin: 57px;
+        width: 100%;
+    }
+}
+.slider{
+    width:85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:10%;
+   padding: 0px 10px;
+}
+.ram{
+    margin: 50px 0px;
+}
+.container img{
+    
+    padding: 20px 0px;
+    transition:1s;
+    cursor: pointer;
+}
+.container img:hover{
+    transform: scale(1.1);
+}
+.tittle{
+    text-decoration:none;
+    background-color: tomato;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.tittle:hover{
+    background-color: turquoise;
+    color: purple;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0 .5s;
+}
+.product-top img{
+    width: 90%;
+}
+.quick{
+    text-align: center;
+    font-size: 20px;
+}
+.product-top img{
+    
+    padding: 20px 0px;
+    transition:1s;
+    cursor: pointer;
+}
+.product-top img:hover{
+    transform: scale(1.1);
+}
+.product-bottom .fa
+{
+    color:aqua;
+    width: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn_me{
+    text-decoration:none;
+    background-color: tomato;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn_me:hover
+{
+    background-color: turquoise;
+    color: purple;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0 .5s;
+}
+.product-bottom h3
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.product-bottom h3:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.product-bottom h5{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+.footer{
+    margin-top: 50px;
+    background-color: aqua;
+    color:darkorange;
+    text-align: center;
+}
+.footer h3{
+    font-size: 25px;
+}
+.footer a{
+    font-size: 18px;
+    color:brown;
+}
